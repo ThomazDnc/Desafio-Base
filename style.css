@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#Menu{
+    background: #303030;
+    
+}
+
+#titulo-menu{
+    color: white;
+    margin-left: 62px;
+    padding-top: 200px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#texto-menu{
+    color: white;
+    margin-top: 30px;
+    margin-left: 62px;
+    font-weight: 500;
+    padding-bottom: 150px;
+    font-size: 20px;
+}
+
+#info-menu{
+    background: #F9F9F9;
+    padding: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.number{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#secao-imagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+#titulo-imagem{
+    margin-top: 200px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+}
+#texto-imagem{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+}
+#casa{
+    width: 510px;
+    height: 605px;
+    border-radius: 30px;
+    top: 781px;
+    left: 876px;
+}
+
+#secao-formulario{
+    text-align: center;
+    background: #303030;
+    padding: 50px;
+}
+#titulo-formulario{
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+input{
+    font-family: "raleway";
+    border: 0px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+}
+.input{
+    font-weight: 700;
+    font-size: 24px;
+    color: #0000004D;
+}
+button{
+    background-color: #C07212;
+    color: white;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    border: 0px;
+}
+.button{
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
+}
